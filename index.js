@@ -54,19 +54,19 @@
 // }
 
 let userNameFamily = prompt("Ваша фамилия?");
-while (userNameFamily == "") {
+while (userNameFamily === "") {
   alert("Поле не должно быть пустым");
   userNameFamily = prompt("Ваша фамилия?");
 }
 console.log(userNameFamily);
 let userName = prompt("Ваше имя?");
-while (userName == "") {
+while (userName === "") {
   alert("Поле не должно быть пустым");
   userName = prompt("Ваша имя?");
 }
 console.log(userName);
 let userMiddleName = prompt("Ваше отчество");
-while (userMiddleName == "") {
+while (userMiddleName === "") {
   alert("Поле не должно быть пустым");
   userMiddleName = prompt("Ваше отчество?");
 }
